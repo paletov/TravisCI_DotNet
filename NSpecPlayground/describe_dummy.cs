@@ -13,7 +13,7 @@ namespace NSpecPlayground
 
         void it_should_fail()
         {
-            true.should_be_false();
+            false.should_be_false();
         }
     }
 }
