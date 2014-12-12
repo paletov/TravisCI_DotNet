@@ -1,2 +1,4 @@
 language: csharp
 solution: NSpecPlayground.sln
+script:
+  - xbuild /p:Configuration=Release NSpecPlayground.sln
