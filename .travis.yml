@@ -2,4 +2,4 @@ language: csharp
 solution: NSpecPlayground.sln
 script:
   - xbuild /p:Configuration=Release NSpecPlayground.sln
-  - mono --runtime=v4.0 packages/nspec.0.9.68/tools/NSpecRunner.exe NSpecPlayground/bin/Release/NSpecPlayground.dll
+  - mono packages/nspec.0.9.68/tools/NSpecRunner.exe NSpecPlayground/bin/Release/NSpecPlayground.dll
